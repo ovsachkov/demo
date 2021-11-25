@@ -1,0 +1,163 @@
+.edge{
+	background-color:black;
+	min-height: 200vh;
+}
+.navbar-expand-lg{
+	background-color:black;
+}
+.nav-link,.nav-link:hover{
+	color:white;
+}
+.navbar-toggler {
+    color: white;
+	border-color:white;
+}
+.imgholder{
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+}
+.navbar-text{
+	color:white;
+	line-height:10px;
+}
+body{
+	background-color:black;
+}
+.insidecont,.whitetext,.whitetext2{
+	background-color:white;
+	color:black;
+}
+#logoandimg{
+
+	background-image:url("../img/bg-main.png");
+	background-size: contain;
+	background-repeat:no-repeat;
+	background-position:right, center;
+	min-height: 51vh;
+	color:white;
+}
+#glam{
+	background-image:url("../img/logo-new.png");
+	background-repeat:no-repeat;
+	background-position:bottom, center;
+}
+#mission{
+	color:#999966;
+
+	font-size:12px;
+}
+.rtext {
+	position:absolute;
+	text-align:center;
+	width:200px;
+	box-shadow: 1px 1px 1px gray;
+	left:-40px;
+	top:40px;
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	background-color:red;
+	color:white;
+}
+.whitetext2{
+	overflow:hidden;
+	position:relative;
+}
+table{
+	width:100%;
+	font-weight:bold;
+	font-size:14px;
+}
+tr td:first-child{
+	text-align:left;
+}
+.smalltext{
+	font-size:12px;
+	text-align:center;
+}
+.currency{
+	border:1px solid black;
+	margin:1px;
+	padding:3px;
+}
+th,td{
+	border:1px solid #fdc300;
+	background-color:#ffff00;
+		color:black;
+	padding-left:5px;
+	padding-right:5px;
+}
+th,.orcol td{
+	background-color:#ffd100;
+}
+.bigrow{
+	height:50px;
+	padding:5px;
+}
+.likebtn{
+	color:white;
+	background-color:black;
+	cursor:pointer;
+	padding:3px;
+	margin-top:5px;
+	margin-bottom:3px;
+	display:block;
+}
+.card:hover{
+	border:1px solid black;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.card .btn{
+	background-color:red;
+	padding-left:40px;
+	padding-right:40px;
+}
+.oldprice {
+position: relative;
+}
+ 
+.oldprice:before {
+border-bottom: 1px solid red;
+position: absolute;
+content: "";
+width: 10%;
+height: 60%;
+transform: rotate(-10deg);
+}
+#upbtn{
+	color:white;
+	cursor:pointer;
+	border:1px solid white;
+	display:inline-block;
+	padding:5px;
+}
+#upbtn span{
+	font-weight:bold;
+	font-size:25px;
+	line-height:15px;
+	vertical-align: text-bottom;
+}
+h3{
+font-family: "Oranienbaum";
+}
+p,h6{
+	font-family: "Roboto";
+}
+
+@font-face {
+font-family: "Roboto"; 
+// адрес шрифта и тип 
+src: url("../fonts/Roboto-Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}
+@font-face {
+font-family: "Oranienbaum"; 
+// адрес шрифта и тип 
+src: url("../fonts/Oranienbaum-Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}
